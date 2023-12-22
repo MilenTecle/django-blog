@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-)n2pq+i^l((!fbe_3en*i2waht)dn#536hfwzj%$b4g4a51aad
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-milentecle-djangoblog-y6kkgpqut36.ws-eu107.gitpod.io',
 '.herokuapp.com']
@@ -90,6 +90,11 @@ WSGI_APPLICATION = 'codestar.wsgi.application'
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
+
+CSRF_TRUSTED_ORIGINS = [
+    "8000-milentecle-djangoblog-y6kkgpqut36.ws-eu107.gitpod.io",
+    "https://*.herokuapp.com"
+]
 
 
 
