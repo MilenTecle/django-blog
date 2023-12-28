@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-)n2pq+i^l((!fbe_3en*i2waht)dn#536hfwzj%$b4g4a51aad
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-milentecle-djangoblog-mg08yznoh2g.ws-eu107.gitpod.io',]
 
