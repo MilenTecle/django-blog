@@ -1,6 +1,6 @@
 ---
 name: User story template
-about: Custo
+about: Custom template for project user stories
 title: ''
 labels: ''
 assignees: ''
@@ -9,10 +9,10 @@ assignees: ''
 
 As a **role** I can **capability** so that **received benefit**
 
-### Acceptance Criteria
+### Tasks
 
-- Acceptance criteria 1
+[-]  Task 1
 
-- Acceptance criteria 2
+[-] Task 2
 
-- Acceptance criteria 3
+[-] Task 3
